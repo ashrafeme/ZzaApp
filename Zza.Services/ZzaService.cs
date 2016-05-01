@@ -16,7 +16,9 @@ namespace Zza.Services
 
         public List<Product> GetProducts()
         {
+            
             return this.Db.Products.ToList();
+
         }
 
         public List<Customer> GetCustomers()

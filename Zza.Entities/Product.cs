@@ -1,8 +1,10 @@
 ﻿namespace Zza.Entities
 {
+    using System.ComponentModel.DataAnnotations.Schema;
     using System.Runtime.Serialization;
 
     [DataContract]
+    [Table("product")]
     public class Product
     {
         [DataMember]

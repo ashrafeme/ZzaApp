@@ -2,9 +2,11 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations.Schema;
     using System.Runtime.Serialization;
 
     [DataContract]
+    [Table("order")]
     public class Order
     {
         public Order()
